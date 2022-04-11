@@ -22,7 +22,7 @@ public class NUM4 {
             }
           }
         catch(ArrayIndexOutOfBoundsException arr){
-             continue;                                          //??continue가 없으면 괄호 나가고 분기??
+             continue;                                          //??continue가 없으면 괄호 나가고 분기??       //catch block을 비워놓으면 안되는 이유??
             }
         }
 
