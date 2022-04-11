@@ -32,7 +32,7 @@ public class NUM6 {
             System.out.println("박수짝");
         }
         
-        else{;}
+        else{;}             //empty else block 오류 발생 가능한가??
         
         scanner.close();
     }
