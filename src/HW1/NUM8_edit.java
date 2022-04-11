@@ -29,7 +29,7 @@ public class NUM8_edit {
         check1 = meetRect(x1, y1);
         check2 = meetRect(x2, y2);
 
-        if((check1||check2) == true){
+        if((check1||check2) == true){           
             System.out.println("두 직사각형이 충돌합니다!");
         }
         else{
@@ -45,7 +45,7 @@ public class NUM8_edit {
         int rectX2 = 200;
         int rectY2 = 200;
 
-        if((x>=rectX1 && x<=rectX2) && (y>=rectY1 && y<=rectY2)){
+        if((x>=rectX1 && x<=rectX2) && (y>=rectY1 && y<=rectY2)){           //simplifiy될 수 있다고??
             return true;
         }
         else {
